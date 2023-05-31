@@ -1,0 +1,83 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 5%;
+
+}
+.head-container{
+    grid-column: span 5;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 3px solid green; */
+    gap: 20px;
+}
+.text{    
+    border: 1px solid blue;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+    
+}
+.image-1{
+    background: url("../images/h_grupo.jpg");
+    background-size: 100% 100%;    
+    height: 200px;       
+    border: 1px solid black;
+    width: 50%;
+}
+.image-2{
+    background: url("../images/v_misha.jpg");
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
+.image-3{
+    background: url("../images/v_coche.jpg");
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
+.image-4{
+    background: url("../images/v_portada.jpg");
+    grid-column:3 / span 2;
+    grid-row: 2 / span 2;
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
+.image-5{
+    background: url("../images/v_coche.jpg");    
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
+.image-6{
+    background: url("../images/h_bici.jpg");
+    grid-column:1 / span 2;
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
+.image-7{
+    background: url("../images/v_misha.jpg");
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
+.image-8{
+    background: url("../images/v_coche.jpg");
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
+.image-9{
+    background: url("../images/v_misha.jpg");
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
+.image-10{
+    background: url("../images/h_lobotigre.jpg");
+    grid-column:3 / span 3;
+    background-size: 100% 100%;
+    border: 1px solid rgb(184, 178, 238);
+}
